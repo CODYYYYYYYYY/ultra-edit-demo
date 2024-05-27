@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+  
+:root{
+    --background-color: #00b6d1 ;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+ul{
+    margin-left: 230px;
+}
+li{
+    display: inline;
+    list-style: none;
+    margin: 20px;
+}
+.ultra{
+    width: 170px;
+    
+}
+.logo{
+    margin-left: 60px;
+}
+a{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+i{
+    margin-left: 20px;
+}
+.firstbody{
+    text-align: center;
+    
+}
+.head{
+    margin-top: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 390;
+    font-style: normal;
+    font-size: 3em;
+}
+.bomb{
+    font-weight: 500;
+}
+.review{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.ride{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 40px;
+}
+.cody{
+    
+    width: 909px;
+    height: 303px;
+    margin-left: 193px;
+}
+.MAC{
+   margin-left: 315px;
+   margin-top: 15px;
+   padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #57bbdb;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
+.button{
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+.MAC:hover{
+    background-color: #428ba3;
+}
+.fab{
+    width: 98px;
+    display: inline;
+}
+.second{
+    display: flex;
+margin-left: 200px;
+align-items: center;
+}
+.hotfix{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: inline;
+  margin-bottom: 30px;
+  
+}
+.edit{
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.6em;
+}
+.hot{
+    margin-bottom: 10px;
+}
+.third{
+    gap: 40px;
+    margin-left: 220px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,283px);
+    grid-template-rows: repeat(3,208px);
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  
+}
+.language{
+    border: none;
+    background-color: #f9f9f9;
+}
+.butt{
+    margin-top: 50px;
+    background-color: rgb(43 189 99);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.eng{
+    margin-top: 79px;
+}
+h4{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+}
+.teee{
+    color: white;
+}
+.butt:hover{
+    background-color: rgb(80, 150, 107);
+}
+.fourth{
+    margin-top: 100px;
+    background-color: #222222;
+}
+.foor{
+    display: flex;
+    justify-content: space-evenly;
+ text-align: center;
+ color: white;
+ 
+}
+.boom{
+    width: 517px;
+    height: 250px;
+    
+    padding-top: 125px;
+}
+h2{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+}
+.Join{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+}
+.sub{
+    color: var(--background-color);
+    padding-top: 7px;
+    padding-bottom: 17px;
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+}
+.boo{
+    
+    width: 411px;
+    height: 344px;
+    padding-top: 30px;
+}
+label{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+.united{
+    display: block;
+    margin-left: 31px;
+    width: 336px;
+    height: 55px;
+    
+}
+
+.sign{
+    cursor: pointer;
+    margin-top: 20px ;
+    width: 336px;
+    height: 55px;
+    background-color: var(--background-color);
+    border: none;
+    border-radius: 7px;
+}
+.sig{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.4em;
+    
+}
+.down{
+    margin-left: 237px;
+}
+.care{
+    font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+  font-size: 27px;
+}
+.organs {
+    font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  padding: 20px;
+  padding-left: 0;
+}
+.spa{
+    color: var(--background-color);
+}
+.interface{
+    display: grid;
+    margin: 50px 0px 0px 184px;
+    grid-template-columns: repeat(4, 260px);
+}
+.interface{
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.heead{
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.swedise,.danny,.porto{
+    color: rgb(90, 87, 87);
+}
+.rock{
+    margin-top: 5px;
+    margin-left: 0;
+    padding-left: 0;
+    width: 230px;
+    height: 41px;
+    border-radius: 6px;
+    border: 1px solid rgb(158, 145, 145);
+}
+.rockbutton{
+    margin-top: 8px;
+    background-color: var(--background-color);
+    border: none;
+    border-radius: 4px;
+    width: 232px;
+    height: 41px;
+    transition: ease 0.4s;
+    cursor: pointer;
+}
+.rocka{
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+.rockbutton:hover{
+    background-color: #428ba3;
+
+}
+.busta{
+    width: 171px;
+    height: 64px;
+    margin-bottom: 40px;
+}
+.ending{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.naughty{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fa-2x{
+    font-size: 25px;
+    margin: 7px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+.fa-2x:hover{
+    transform: scale(1.5,1.5);
+}
